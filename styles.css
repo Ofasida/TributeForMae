@@ -1,0 +1,195 @@
+/* Styling the area of the slides */
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+}
+
+/* Style each of the sides 
+  with a fixed width and height */
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+
+/* Add animation to the slides */
+.slide-wrapper {
+
+    /* Calculate the total width on the
+    basis of number of slides */
+    width: calc(728px * 4);
+    
+
+    /* Specify the animation with the
+    duration and speed */
+    animation: slide 30s ease infinite;
+}
+/* Set the background color
+  of each of the slides */
+.slide:nth-child(1) {
+    background: #CBC3E3;
+}
+
+.slide:nth-child(2) {
+    background: #f1cae8;
+}
+
+.slide:nth-child(3) {
+    background: #f1cad4;
+}
+
+.slide:nth-child(4) {
+    background: #f1d3ca;
+}
+
+/* Define the animation 
+  for the slideshow */
+@keyframes slide {
+
+    /* Calculate the margin-left for 
+    each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+}
+.quotes{
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    background-color: #E0BBE4; /* Light purple */
+    color: #333; /* Dark text for contrast */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold; /* Optional: Make the text bold */
+}
+ #img-div{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-bottom: 20px;
+ }
+
+#image{
+  display: block;
+  height: auto;
+  width: 700px;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#img-caption{
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    color: #4A3C30; 
+}
+
+ #tribute-info-header, #title, #tribute-career{
+     text-align: center;
+
+ }
+ body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0; /* Very light gray (cool off-white) background */
+    color: #333; /* Dark gray text */
+}
+
+#main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F5F5F5; /* Slightly darker light gray (cool off-white) container */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+#tribute-info{
+    padding: 20px;
+    border-top: 1px solid #E0BBE4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    
+}
+#tribute-info h2{
+    
+    font-size: 2.2rem; /* Slightly larger for main section headings */
+    margin-bottom: 20px;
+    line-height: 1.3;
+    border-bottom: 1px solid #E0BBE4; /* Subtle border for section separation */
+    padding-bottom: 8px;
+
+}
+
+#tribute-info h3{
+
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    line-height: 1.4;
+
+}
+#NASA-headers , #post{
+
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    line-height: 1.4;
+
+}
+
+#tribute-info li {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+hr{
+    border: none;
+    height: 3px;
+    background-color: #E0BBE4;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+ul {
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-family: sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 3px;
+    padding-left: 5px;
+}
+ul li::marker{
+    font-size: 1.2em; /* Increase bullet size */
+    color: #4A3C30; /* Dark Brown bullet color */
+}
+p {
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+    max-width: 600px;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+}
