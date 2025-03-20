@@ -1,0 +1,32 @@
+HTML & CSS Slideshow only 
+
+ <!-- Define the slideshow container -->
+<div id="slideshow">
+  <div class="slide-wrapper">
+
+<!-- Define each of the slides and write the content -->
+
+<div class="slide">
+   <h2 class="slide-number">Dr. Jemison aboard Endeavour.</h2>
+    <img src="https://ofasida.github.io/TributeForMae/DELETE/mae in space2.jpg" alt="Dr. Jemison smiling while at work in Endeavour spacecraft." style="width:100%">
+  <div class="text"> Dr. Jemison aboard Endeavour.</div>
+</div>
+
+<div class="slide">
+   <h2 class="slide-number"> Dr. Jemison floating in space.</h2>
+    <img src="https://ofasida.github.io/TributeForMae/DELETE/maeinspace.jpeg" alt=" Dr. Jemison in floating in space on the Endeavour spacecraft." style="width:100%">
+  <div class="text"> Dr. Jemison floating in space.</div>
+ </div>
+            
+<div class="slide">
+   <h2 class="slide-number">Dr. Jemison working as a Mission Specialist aboard Endeavour.</h2>
+	   <img src="https://ofasida.github.io/TributeForMae/DELETE/maein space3.jpg" alt="Dr.Jemison aboard the Endeavour spacecraft working as a mission specialist." style="width:100%">
+  <div class="text">Dr. Jemison working as a Mission Specialist aboard Endeavour.</div>
+ </div>
+
+<div class="slide">
+ <h2 class="slide-number"> The crew for mission STS-47.</h2>
+   <img src="https://ofasida.github.io/TributeForMae/DELETE/maew:crew.jpg" alt="The crew for mission STS-47" style="width:100%">
+      <div class="text">The crew for mission STS-47.</div>
+   </div>
+   </div>
